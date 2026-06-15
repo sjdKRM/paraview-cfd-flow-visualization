@@ -1,0 +1,29 @@
+{
+  "project_title": "CFD-Style Flow Visualization in ParaView Using a Reproducible Python Pipeline",
+  "role_alignment": "Scientific Visualization Specialist / ParaView AI Trainer",
+  "dataset_used_for_outputs": "data/fallback_cylinder_flow.vtk",
+  "dataset_note": "Generated analytic cylinder-flow-style VTK structured-grid sample; useful for visualization workflow demonstration, not a high-fidelity CFD simulation result.",
+  "primary_tools": [
+    "ParaView",
+    "pvpython",
+    "Python",
+    "ffmpeg"
+  ],
+  "main_filters": [
+    "Slice",
+    "Contour",
+    "Threshold",
+    "StreamTracer",
+    "Tube",
+    "ColorBy"
+  ],
+  "outputs_generated": [
+    "paraview/flow_pipeline.pvsm",
+    "screenshots/01_scalar_slice.png",
+    "screenshots/02_contour_or_threshold.png",
+    "screenshots/03_streamlines.png",
+    "screenshots/04_combined_view.png",
+    "animation/flow_orbit.mp4"
+  ],
+  "created_without_gui": true
+}

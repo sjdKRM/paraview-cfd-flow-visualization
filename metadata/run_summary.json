@@ -1,0 +1,14 @@
+{
+  "input": "data/fallback_cylinder_flow.vtk",
+  "scalar_field_used": "speed",
+  "vector_field_used": "velocity",
+  "streamlines_created": true,
+  "outputs": [
+    "screenshots/01_scalar_slice.png",
+    "screenshots/02_contour_or_threshold.png",
+    "screenshots/03_streamlines.png",
+    "screenshots/04_combined_view.png",
+    "paraview/flow_pipeline.pvsm",
+    "animation/flow_orbit.mp4"
+  ]
+}
